@@ -14,7 +14,10 @@ export default async function Home() {
       <h1 className="m-4">Main page</h1>
       <div className="flex flex-row flex-wrap">
         {postsData.map((post) => (
-          <div className="flex items-center justify-around ml-5 w-1/2.5 my-2 w-3/ ">
+          <div
+            className="flex items-center justify-around ml-5 w-1/2.5 my-2"
+            key={post.id}
+          >
             <h1>{post.id}</h1>
             <div className="overflow-auto border-2 p-3 rounded-lg mx-6 bg-blue-300">
               <h3 className="text-red-500">{post.title}</h3>

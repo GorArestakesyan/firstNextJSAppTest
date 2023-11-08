@@ -1,7 +1,11 @@
-"use client";
-
 import Link from "next/link";
-
+export async function generateMetadata({ params, searchParams }) {
+  let post = await fetchPosts(params.id);
+  return {
+    title: `${post.title} - Info about post`,
+    description: post.body,
+  };
+}
 async function fetchPosts(id) {
   let results = await fetch(`https://jsonplaceholder.typicode.com/posts/${id}`);
   let jsonedData = await results.json();
