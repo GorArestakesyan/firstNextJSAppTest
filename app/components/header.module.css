@@ -1,0 +1,9 @@
+.headerContainer {
+  @apply bg-blue-500 text-white p-6 flex flex-row;
+}
+.navbar {
+  @apply flex flex-row w-full justify-end items-center;
+}
+.link {
+  @apply px-2 underline;
+}
