@@ -28,5 +28,8 @@ const authConfig: AuthOptions = {
       },
     }),
   ],
+  pages: {
+    signIn: "/signin",
+  },
 };
 export default authConfig;

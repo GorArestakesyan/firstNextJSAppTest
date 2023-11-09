@@ -1,0 +1,15 @@
+.mainContainer {
+  @apply flex h-3/4 w-screen items-center justify-center flex-col gap-4;
+}
+.signinForm {
+  @apply grid gap-3 grid-flow-row justify-items-center;
+}
+.signinBtn {
+  @apply p-3 bg-green-500 font-medium rounded-md w-28;
+}
+.input {
+  @apply p-1.5 text-black font-light border-none rounded-sm outline-none focus:outline-cyan-600 focus:p-3 focus:m-3 transition-all duration-75;
+}
+.pageTitle {
+  @apply text-3xl;
+}

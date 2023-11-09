@@ -7,3 +7,6 @@
 .link {
   @apply px-2 underline;
 }
+.googleButton {
+  @apply p-3 bg-blue-400 font-medium rounded-md;
+}

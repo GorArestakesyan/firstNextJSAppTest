@@ -28,7 +28,7 @@ function Header() {
             Sign Out
           </Link>
         ) : (
-          <Link href={"/api/auth/signin"} className={styles.link}>
+          <Link href={"/signin"} className={styles.link}>
             Sign In
           </Link>
         )}

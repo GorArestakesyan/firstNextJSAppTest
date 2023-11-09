@@ -1,7 +1,6 @@
 "use client";
-import React from "react";
 import Providers from "./components/Providers";
-import Header from "./components/header";
+import Header from "./components/header/header";
 
 function Body() {
   return (
